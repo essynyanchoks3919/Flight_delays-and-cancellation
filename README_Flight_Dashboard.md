@@ -1,22 +1,22 @@
-# ✈️ AeroOps — Flight Operations Intelligence Dashboard
+# AeroOps — Flight Operations Intelligence Dashboard
 
 An interactive single-page HTML dashboard that presents the findings from the Flight Delay & Cancellation Prediction project as a fully operational analytics platform. It is designed to simulate a real-time airline operations control centre, complete with live weather overlays, ML model metrics, and multi-airline performance tracking.
 
 ---
 
-## 📁 File
+##  File
 
 `Flight_dashboard.html`
 
 ---
 
-## 🚀 How to Open
+##  How to Open
 
 No installation or server required. Simply open `Flight_dashboard.html` in any modern web browser (Chrome, Firefox, Edge, Safari).
 
 ---
 
-## 📊 Dashboard Overview
+##  Dashboard Overview
 
 ### Live Status Bar
 Displayed at the top of every panel, the status bar shows a real-time ticker of airline on-time performance rates with directional trend indicators:
@@ -34,9 +34,9 @@ Hub-level alerts are also shown for average delay (ORD: 18.4 min, ATL: 11.2 min)
 
 ---
 
-## 🗂️ Navigation Panels
+##  Navigation Panels
 
-### ⬡ Overview
+###  Overview
 Network-level operations summary for the full 2015 BTS domestic dataset.
 
 **Key Metrics:**
@@ -64,7 +64,7 @@ Network-level operations summary for the full 2015 BTS domestic dataset.
 
 ---
 
-### 🗺️ Network Map
+###  Network Map
 A US domestic airport operations map with colour-coded delay tiers.
 
 **Delay Tier Legend:**
@@ -79,7 +79,7 @@ A US domestic airport operations map with colour-coded delay tiers.
 
 ---
 
-### ◎ Reliability
+###  Reliability
 Airline-level performance, cancellation analysis, and SLA tracking.
 
 **Summary KPIs:**
@@ -99,7 +99,7 @@ Airline-level performance, cancellation analysis, and SLA tracking.
 
 ---
 
-### ⚡ ML Model Intelligence
+###  ML Model Intelligence
 Displays the trained model metrics from the Flight Delays notebook, providing a real-time model performance view.
 
 **Regression Models (Arrival Delay in Minutes):**
@@ -125,12 +125,12 @@ Estimates the financial cost of delays and cancellations, translating ML predict
 
 ---
 
-### 🔔 Alerts
+###  Alerts
 Active operational alerts panel — 3 alerts flagged at time of snapshot — including weather events, high-delay airport warnings, and system data lag status (1.2 s ✓).
 
 ---
 
-### ⚙️ Architecture
+###  Architecture
 System architecture overview showing the data pipeline from source to dashboard:
 
 | Data Source | Description |
@@ -144,7 +144,7 @@ Also includes a **Runbook** tab and **RBAC Settings** for role-based access cont
 
 ---
 
-## 🛠️ Technical Details
+##  Technical Details
 
 | Property | Value |
 |----------|-------|
