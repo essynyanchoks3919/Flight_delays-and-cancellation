@@ -1,16 +1,16 @@
-# ✈️ Flight Delay & Cancellation Prediction
+#  Flight Delay & Cancellation Prediction
 
 A full machine learning pipeline built on the **2015 U.S. Bureau of Transportation Statistics (BTS) domestic flight dataset**, covering approximately **5.8 million flights** across 14 airlines. The project addresses two parallel prediction tasks: forecasting the magnitude of arrival delays (regression) and predicting whether a flight will be cancelled (classification).
 
 ---
 
-## 📁 File
+##  File
 
 `Flight_delays.ipynb`
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 | File | Description |
 |------|-------------|
@@ -20,7 +20,7 @@ A full machine learning pipeline built on the **2015 U.S. Bureau of Transportati
 
 ---
 
-## 🔄 Pipeline Walkthrough
+##  Pipeline Walkthrough
 
 ### Section 1 — Data Loading & Initial Inspection
 The flight CSV is 550 MB uncompressed. Optimised dtypes (e.g. `int16`, `float32`, `category`) are pre-specified before loading to halve memory usage and prevent silent type coercion. All three CSV files are loaded and inspected for shape, dtypes, and memory footprint.
@@ -66,7 +66,7 @@ A multi-metric radar chart normalises all metrics to [0, 1] for head-to-head mod
 
 ---
 
-## 📊 Key Results
+##  Key Results
 
 | Model | Task | MAE | RMSE | R² | Stability |
 |-------|------|-----|------|----|-----------|
@@ -77,7 +77,7 @@ A multi-metric radar chart normalises all metrics to [0, 1] for head-to-head mod
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Category | Tools |
 |----------|-------|
@@ -90,7 +90,7 @@ A multi-metric radar chart normalises all metrics to [0, 1] for head-to-head mod
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 ```bash
@@ -105,10 +105,10 @@ pip install pandas numpy scikit-learn xgboost catboost shap torch matplotlib sea
 
 ---
 
-## 📂 Data Source
+##  Data Source
 
 **2015 US Domestic Flights — Bureau of Transportation Statistics (BTS)**
-Available on [Kaggle](https://www.kaggle.com/).
+Available on [Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays).
 
 ---
 
